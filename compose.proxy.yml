@@ -1,0 +1,25 @@
+# Alternative standalone file for an existing Docker reverse proxy.
+# Use: docker compose -f compose.proxy.yml up -d
+services:
+  portfolio:
+    image: ${PORTFOLIO_IMAGE:?Set PORTFOLIO_IMAGE in .env}
+    restart: unless-stopped
+    expose: ["8080"]
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=64m,mode=1777
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      proxy:
+        aliases: [guerbouz-portfolio]
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+networks:
+  proxy:
+    external: true
+    name: ${PROXY_NETWORK:-proxy}

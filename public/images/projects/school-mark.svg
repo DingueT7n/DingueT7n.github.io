@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Quran school mark</title>
+  <desc id="desc">A green and gold open-book symbol for the Quran school platform.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c4931"/>
+      <stop offset="1" stop-color="#2cad69"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="#fffdf7" stroke="#d1a342" stroke-width="4"/>
+  <path d="M64 31c-12-9-28-12-43-6v59c15-6 31-3 43 7z" fill="url(#g)"/>
+  <path d="M64 31c12-9 28-12 43-6v59c-15-6-31-3-43 7z" fill="#19794c"/>
+  <path d="M64 31v60" stroke="#f1cf81" stroke-width="4" stroke-linecap="round"/>
+  <path d="M31 43c8-2 16-1 24 3M31 55c8-2 16-1 24 3M73 46c8-4 16-5 24-3M73 58c8-4 16-5 24-3" fill="none" stroke="#fffdf7" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  <path d="M49 103h30" stroke="#d1a342" stroke-width="5" stroke-linecap="round"/>
+</svg>

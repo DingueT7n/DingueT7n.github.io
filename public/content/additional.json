@@ -1,0 +1,99 @@
+{
+  "languages": {
+    "fr": ["Français · B2", "Anglais · avancé", "Arabe · langue maternelle"],
+    "en": ["French · B2", "English · advanced", "Arabic · native"],
+    "ar": ["الفرنسية · B2", "الإنجليزية · متقدم", "العربية · اللغة الأم"]
+  },
+  "courses": [
+    {
+      "id": "aspnet-core",
+      "title": "Mastering ASP.NET Core: Concepts to Production-Ready APIs",
+      "issuer": "Metigator",
+      "date": "2026-01-03",
+      "kind": "course",
+      "image": "certificates/aspnet-core.jpg",
+      "pdf": "certificates/aspnet-core.pdf",
+      "url": null,
+      "description": {
+        "fr": "Attestation de formation fournie.",
+        "en": "Supplied course certificate.",
+        "ar": "شهادة إتمام دورة مقدمة."
+      }
+    },
+    {
+      "id": "clustering-python",
+      "title": "Clustering & Unsupervised Learning in Python",
+      "issuer": "Udemy",
+      "date": "2025-11-22",
+      "kind": "course",
+      "image": "certificates/clustering-python.jpg",
+      "pdf": "certificates/clustering-python.pdf",
+      "url": null,
+      "description": {
+        "fr": "Attestation de formation fournie.",
+        "en": "Supplied course certificate.",
+        "ar": "شهادة إتمام دورة مقدمة."
+      }
+    },
+    {
+      "id": "deep-learning-python",
+      "title": "Python for Deep Learning: Build Neural Networks in Python",
+      "issuer": "Udemy",
+      "date": "2025-11-22",
+      "kind": "course",
+      "image": "certificates/deep-learning-python.jpg",
+      "pdf": "certificates/deep-learning-python.pdf",
+      "url": null,
+      "description": {
+        "fr": "Attestation de formation fournie.",
+        "en": "Supplied course certificate.",
+        "ar": "شهادة إتمام دورة مقدمة."
+      }
+    },
+    {
+      "id": "rag-strategy",
+      "title": "RAG Strategy & Execution: Build Enterprise Knowledge Systems",
+      "issuer": "Udemy",
+      "date": "2025-11-21",
+      "kind": "course",
+      "image": "certificates/rag-strategy.jpg",
+      "pdf": "certificates/rag-strategy.pdf",
+      "url": null,
+      "description": {
+        "fr": "Attestation de formation fournie.",
+        "en": "Supplied course certificate.",
+        "ar": "شهادة إتمام دورة مقدمة."
+      }
+    },
+    {
+      "id": "ubuntu-server",
+      "title": "Ubuntu Network Server",
+      "issuer": "Udemy",
+      "date": "2025-11-21",
+      "kind": "course",
+      "image": "certificates/ubuntu-server.jpg",
+      "pdf": "certificates/ubuntu-server.pdf",
+      "url": null,
+      "description": {
+        "fr": "Attestation de formation fournie.",
+        "en": "Supplied course certificate.",
+        "ar": "شهادة إتمام دورة مقدمة."
+      }
+    },
+    {
+      "id": "conference-acceptance",
+      "title": "Machine Learning-Based Optimization of LTE Tower Parameters Using Bayesian Methods",
+      "issuer": "AAIET 2025 · Université de Djelfa",
+      "date": "2025-12-15",
+      "kind": "research",
+      "image": "certificates/conference-acceptance.jpg",
+      "pdf": "certificates/conference-acceptance.pdf",
+      "url": null,
+      "description": {
+        "fr": "Coauteur de l’article présenté à AAIET 2025 (15–16 décembre). Le certificat est établi au nom du présentateur Guerbouz Tahar et cite Mohammed Alaa Eddine Guerbouz parmi les coauteurs.",
+        "en": "Coauthor of the paper presented at AAIET 2025 (15–16 December). The certificate names presenter Guerbouz Tahar and lists Mohammed Alaa Eddine Guerbouz among the coauthors.",
+        "ar": "مؤلف مشارك في الورقة المقدمة في AAIET 2025 يومي 15 و16 ديسمبر. الشهادة باسم المقدم قربوز طاهر وتذكر محمد علاء الدين قربوز ضمن المؤلفين المشاركين."
+      }
+    }
+  ]
+}

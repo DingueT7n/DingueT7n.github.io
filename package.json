@@ -1,0 +1,30 @@
+{
+  "name": "guerbouz-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/validate-content.mjs && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check:content": "node scripts/validate-content.mjs",
+    "lint": "eslint src scripts",
+    "test": "node scripts/test-project-media.mjs && node scripts/test-credentials.mjs && node scripts/test-portfolio.mjs",
+    "format": "prettier --write src scripts public/content *.json *.js *.html *.yaml",
+    "format:check": "prettier --check src scripts public/content *.json *.js *.html *.yaml"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "eslint": "^10.13.0",
+    "prettier": "^3.9.10",
+    "vite": "^6.0.0"
+  },
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

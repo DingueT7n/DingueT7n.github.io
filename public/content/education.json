@@ -1,0 +1,105 @@
+[
+  {
+    "school": "INGETIS · France",
+    "date": {
+      "fr": "Depuis septembre 2026",
+      "en": "Since September 2026",
+      "ar": "منذ سبتمبر 2026"
+    },
+    "degree": {
+      "fr": "M2 / Mastère Expert en Architecture et Développement Logiciel",
+      "en": "M2 / Mastère — Software Architecture & Development",
+      "ar": "ماستر متخصص في هندسة وتطوير البرمجيات"
+    },
+    "id": "ingetis-m2",
+    "project": {
+      "fr": "IA générative, RAG et systèmes agentiques",
+      "en": "Generative AI, RAG and agentic systems",
+      "ar": "الذكاء الاصطناعي التوليدي وRAG والأنظمة الوكيلية"
+    },
+    "detail": {
+      "fr": "Formation en cours. Travaux pratiques autour des LLM, des embeddings, de la recherche documentaire augmentée et des agents, avec le projet pédagogique EcoTrack.",
+      "en": "Ongoing studies. Practical work on LLMs, embeddings, retrieval-augmented document QA and agents, alongside the EcoTrack academic project.",
+      "ar": "تكوين جارٍ وأعمال تطبيقية حول النماذج اللغوية والتضمينات والإجابة المعززة بالاسترجاع والوكلاء، مع مشروع EcoTrack التعليمي."
+    },
+    "technologies": ["Python", "Gemini", "RAG", "LangGraph", "Colab"],
+    "github": "https://github.com/DingueT7n/generative-ai-llm-agentic-systems"
+  },
+  {
+    "school": {
+      "fr": "Université de Ghardaïa",
+      "en": "University of Ghardaïa",
+      "ar": "جامعة غرداية"
+    },
+    "date": "2025",
+    "degree": {
+      "fr": "Master en Systèmes Intelligents pour l’Extraction de Connaissances",
+      "en": "Master’s in Intelligent Systems for Knowledge Extraction",
+      "ar": "ماستر في الأنظمة الذكية لاستخراج المعرفة"
+    },
+    "project": {
+      "fr": "Optimisation intelligente des réseaux cellulaires LTE",
+      "en": "AI-Driven LTE Cellular Network Optimization",
+      "ar": "التحسين الذكي لشبكات الاتصالات الخلوية LTE"
+    },
+    "detail": {
+      "fr": "Mémoire de fin d’études consacré à l’optimisation de la couverture radio et de la capacité des réseaux LTE à l’aide de techniques d’intelligence artificielle. Développement en Python d’un système de modélisation et d’optimisation reposant sur le modèle de propagation COST-231 Hata et les mesures RSRP. Utilisation de l’optimisation bayésienne pour ajuster la puissance d’émission et l’inclinaison des antennes, ainsi que d’algorithmes génétiques pour rechercher des emplacements adaptés à de nouvelles stations de base. Analyse des zones de faible couverture, des interférences et des configurations réseau dans une approche inspirée des réseaux auto-organisés (SON).",
+      "en": "Master’s thesis focused on improving LTE cellular network coverage and capacity through artificial intelligence and mathematical optimization. Developed a Python-based modeling and optimization framework using the COST-231 Hata radio propagation model and Reference Signal Received Power (RSRP) measurements. Applied Bayesian Optimization to tune base-station transmit power and antenna downtilt, and Genetic Algorithms to identify suitable locations for additional base stations. Studied weak-coverage areas, interference, and network configurations using concepts inspired by Self-Organizing Networks (SON).",
+      "ar": "مشروع تخرج الماستر يهدف إلى تحسين التغطية الراديوية وسعة شبكات LTE باستخدام الذكاء الاصطناعي وتقنيات التحسين الرياضي. تطوير إطار عمل بلغة Python لمحاكاة وتحسين الشبكات بالاعتماد على نموذج انتشار الإشارة COST-231 Hata وقياسات RSRP. استخدام التحسين البايزي لضبط قدرة إرسال المحطات وزوايا ميل الهوائيات، والخوارزميات الجينية لتحديد المواقع المناسبة لإنشاء محطات قاعدة إضافية. دراسة مناطق ضعف التغطية والتداخل الراديوي وتحسين إعدادات الشبكة بالاستفادة من مفاهيم الشبكات ذاتية التنظيم SON."
+    },
+    "technologies": [
+      "Python",
+      "Artificial Intelligence",
+      "Bayesian Optimization",
+      "Genetic Algorithms",
+      "LTE / RSRP",
+      "COST-231 Hata",
+      "Network Optimization"
+    ],
+    "github": "https://github.com/DingueT7n/final-thesis-lte-optimization",
+    "id": "siec-master",
+    "summary": {
+      "fr": "Modélisation radio en Python, optimisation bayésienne des paramètres et placement de stations par algorithmes génétiques.",
+      "en": "Python radio modeling, Bayesian parameter optimization and genetic algorithms for station placement.",
+      "ar": "نمذجة راديوية بـ Python وتحسين بايزي للمعلمات وخوارزميات جينية لتحديد مواقع المحطات."
+    }
+  },
+  {
+    "school": {
+      "fr": "Université de Ghardaïa",
+      "en": "University of Ghardaïa",
+      "ar": "جامعة غرداية"
+    },
+    "date": "2023",
+    "degree": {
+      "fr": "Licence en Systèmes d’Information",
+      "en": "Bachelor’s in Information Systems",
+      "ar": "ليسانس في نظم المعلومات"
+    },
+    "project": {
+      "fr": "Système de gestion hospitalière — Applications Desktop et Mobile",
+      "en": "Hospital Management System — Desktop & Mobile Applications",
+      "ar": "نظام إدارة المستشفيات — تطبيقات سطح المكتب والهاتف"
+    },
+    "detail": {
+      "fr": "Projet de fin d’études consacré à la conception et au développement d’un système de gestion hospitalière visant à améliorer la communication entre médecins et patients et à faciliter le suivi des soins. Réalisation d’une application de bureau en C#/.NET WinForms pour les opérations de gestion hospitalière et d’une application mobile Android en Kotlin pour faciliter l’accès aux services. Le système couvre la gestion des rendez-vous médicaux, la consultation des ordonnances et l’accès aux documents médicaux, avec pour objectif de centraliser les informations et de simplifier les échanges entre les utilisateurs.",
+      "en": "Bachelor’s final-year project focused on designing and developing a hospital management system to improve communication between doctors and patients and simplify healthcare administration. Built a C#/.NET WinForms desktop application for hospital management workflows and a Kotlin-based Android application for mobile access. The solution covers medical appointment scheduling, prescription management, and access to medical documents, aiming to centralize healthcare information and make patient–doctor interactions more efficient.",
+      "ar": "مشروع التخرج لنيل شهادة الليسانس، يتمثل في تصميم وتطوير نظام لإدارة المستشفيات بهدف تحسين التواصل بين الأطباء والمرضى وتسهيل إدارة الخدمات الصحية. تطوير تطبيق لسطح المكتب باستخدام C# و.NET WinForms لإدارة العمليات داخل المستشفى، وتطبيق Android باستخدام Kotlin لتسهيل الوصول إلى الخدمات عبر الهاتف. يشمل النظام تنظيم المواعيد الطبية وإدارة الوصفات الطبية والوصول إلى الوثائق الطبية، بهدف توحيد المعلومات وتبسيط التواصل بين المرضى والأطباء."
+    },
+    "technologies": [
+      "C#",
+      ".NET",
+      "Windows Forms",
+      "Kotlin",
+      "Android",
+      "Desktop Development",
+      "Mobile Development"
+    ],
+    "id": "information-systems-bachelor",
+    "summary": {
+      "fr": "Applications WinForms et Android pour les rendez-vous, les ordonnances et les documents médicaux.",
+      "en": "WinForms and Android applications for appointments, prescriptions and medical documents.",
+      "ar": "تطبيقات WinForms وAndroid للمواعيد والوصفات والوثائق الطبية."
+    }
+  }
+]

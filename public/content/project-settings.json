@@ -1,0 +1,45 @@
+{
+  "defaultLogo": "images/projects/default-logo.svg",
+  "categories": [
+    {
+      "id": "web",
+      "label": {
+        "fr": "Web & Mobile",
+        "en": "Web & Mobile",
+        "ar": "ويب وجوّال"
+      }
+    },
+    {
+      "id": "desktop",
+      "label": {
+        "fr": "Desktop",
+        "en": "Desktop",
+        "ar": "سطح المكتب"
+      }
+    },
+    {
+      "id": "research",
+      "label": {
+        "fr": "IA & Recherche",
+        "en": "AI & Research",
+        "ar": "الذكاء الاصطناعي والبحث"
+      }
+    },
+    {
+      "id": "software",
+      "label": {
+        "fr": "Logiciels",
+        "en": "Software",
+        "ar": "برمجيات"
+      }
+    }
+  ],
+  "featuredIds": ["schoolsaas","store",  "aqsat"],
+  "academicIds": [
+    "lte-thesis",
+    "siec-ml",
+    "ingetis-genai",
+    "web-scraping-java",
+    "nlp-generative-ai"
+  ]
+}

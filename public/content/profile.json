@@ -1,0 +1,85 @@
+{
+  "name": "Mohammed Alaa Eddine Guerbouz",
+  "shortName": "Mohammed Guerbouz",
+  "initials": "MG",
+  "title": {
+    "fr": "Développeur logiciel C# / .NET",
+    "en": "C# / .NET Software Developer",
+    "ar": "مطوّر برمجيات C# / .NET"
+  },
+  "specialty": ".NET · React · Angular",
+  "location": {
+    "fr": "Chatou, Île-de-France",
+    "en": "Chatou, Île-de-France",
+    "ar": "شاتو، إيل دو فرانس"
+  },
+  "email": "gb.devalaadin@gmail.com",
+  "phone": "+33770840647",
+  "github": "https://github.com/DingueT7n",
+  "linkedin": "https://www.linkedin.com/in/mohammed-alaa-eddine-guerbouz-6349bb320/",
+  "intro": {
+    "fr": "Des interfaces claires.\nDes fondations solides.",
+    "en": "Clear interfaces.\nSolid foundations.",
+    "ar": "واجهات واضحة.\nوأسس متينة."
+  },
+  "summary": {
+    "fr": "Je développe des applications métiers : API ASP.NET Core, interfaces React et Angular, données et déploiement. Mes projets couvrent la gestion commerciale, les plateformes SaaS et l’e-commerce.",
+    "en": "I develop business applications: ASP.NET Core APIs, React and Angular interfaces, data and deployment. My projects span retail management, SaaS platforms and e-commerce.",
+    "ar": "أطوّر تطبيقات الأعمال: واجهات ASP.NET Core وواجهات React وAngular والبيانات والنشر. تشمل مشاريعي الإدارة التجارية ومنصات SaaS والتجارة الإلكترونية."
+  },
+  "note": {
+    "fr": "Ingénieur logiciel chez Future Gates UK · M2 à INGETIS",
+    "en": "Software Engineer at Future Gates UK · M2 at INGETIS",
+    "ar": "مهندس برمجيات لدى Future Gates UK · طالب M2 في INGETIS"
+  },
+  "resume": {
+    "fr": "cv/GUERBOU-Mohammed-Alaa-Eddine-CV-French.pdf",
+    "en": "cv/GUERBOU-Mohammed-Alaa-Eddine-CV-English.pdf",
+    "ar": "cv/GUERBOU-Mohammed-Alaa-Eddine-CV-English.pdf"
+  },
+  "photo": {
+    "src": "images/profile/mohammed-guerbouz.jpg",
+    "alt": {
+      "fr": "Portrait de Mohammed Alaa Eddine Guerbouz",
+      "en": "Portrait of Mohammed Alaa Eddine Guerbouz",
+      "ar": "صورة محمد علاء الدين قربوز"
+    }
+  },
+  "heroCard": {
+    "label": "SOFTWARE · DATA · AI",
+    "items": [
+      {
+        "title": {
+          "fr": "Développeur Full Stack",
+          "en": "Full Stack Developer",
+          "ar": "مطوّر Full Stack"
+        },
+        "subtitle": ".NET / React / Angular / TypeScript"
+      },
+      {
+        "title": {
+          "fr": "Ingénieur Data Science",
+          "en": "Data Science Engineer",
+          "ar": "مهندس علوم البيانات"
+        },
+        "subtitle": "Python / Machine Learning / Deep Learning"
+      },
+      {
+        "title": {
+          "fr": "IA agentique",
+          "en": "Agentic AI",
+          "ar": "الذكاء الاصطناعي الوكيلي"
+        },
+        "subtitle": "LLM / RAG / Gemini / LangGraph"
+      }
+    ]
+  },
+  "stackRibbon": [
+    "C# / .NET",
+    "React / Angular",
+    "TypeScript",
+    "Python / Django",
+    "PostgreSQL",
+    "Docker"
+  ]
+}

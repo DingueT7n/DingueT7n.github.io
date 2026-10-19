@@ -1,0 +1,80 @@
+[
+  {
+    "name": {
+      "fr": "Backend & Architecture",
+      "en": "Backend & Architecture",
+      "ar": "الخلفية والبنية"
+    },
+    "items": [
+      "C#",
+      "ASP.NET Core",
+      "EF Core",
+      "LINQ",
+      "Clean Architecture",
+      "DDD",
+      "CQRS",
+      "MediatR",
+      "REST",
+      "JWT / RBAC",
+      "Python",
+      "Django"
+    ]
+  },
+  {
+    "name": {
+      "fr": "Interfaces & Applications",
+      "en": "Interfaces & Applications",
+      "ar": "الواجهات والتطبيقات"
+    },
+    "items": [
+      "React",
+      "Angular",
+      "React Native",
+      "TypeScript",
+      "JavaScript",
+      "HTML / CSS",
+      "DevExpress",
+      "WinForms",
+      "WordPress"
+    ]
+  },
+  {
+    "name": {
+      "fr": "Données & Déploiement",
+      "en": "Data & Deployment",
+      "ar": "البيانات والنشر"
+    },
+    "items": [
+      "SQL Server",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "CI/CD",
+      "Git",
+      "Linux"
+    ]
+  },
+  {
+    "name": {
+      "fr": "IA & Exploration",
+      "en": "AI & Exploration",
+      "ar": "الذكاء الاصطناعي"
+    },
+    "items": [
+      "Python",
+      "FastAPI",
+      "Pandas",
+      "Scikit-learn",
+      "TensorFlow",
+      "Regression",
+      "KNN / SVM",
+      "PCA / Clustering",
+      "CNN / GAN",
+      "Gemini",
+      "Embeddings / RAG",
+      "LangGraph"
+    ]
+  }
+]

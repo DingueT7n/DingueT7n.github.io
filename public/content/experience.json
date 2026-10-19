@@ -1,0 +1,171 @@
+[
+  {
+    "id": "future-gates",
+    "company": "Future Gates UK",
+    "role": {
+      "fr": "Software Engineer — Backend & Cloud",
+      "en": "Software Engineer — Backend & Cloud",
+      "ar": "مهندس برمجيات — Backend & Cloud"
+    },
+    "startDate": "2026-01",
+    "endDate": null,
+    "location": {
+      "fr": "Télétravail",
+      "en": "Remote",
+      "ar": "عن بُعد"
+    },
+    "points": {
+      "fr": [
+        "Développement d’API REST et de services métiers avec C# et ASP.NET Core.",
+        "Clean Architecture, DDD, CQRS et MediatR pour séparer les responsabilités.",
+        "Pipelines CI/CD, conteneurisation Docker, cache, logging et observabilité."
+      ],
+      "en": [
+        "Built REST APIs and business services with C# and ASP.NET Core.",
+        "Applied Clean Architecture, DDD, CQRS and MediatR to separate responsibilities.",
+        "Worked on CI/CD pipelines, Docker containers, caching, logging and observability."
+      ],
+      "ar": [
+        "تطوير واجهات REST وخدمات الأعمال باستخدام C# وASP.NET Core.",
+        "تطبيق Clean Architecture وDDD وCQRS وMediatR لفصل المسؤوليات.",
+        "خطوط CI/CD وحاويات Docker والتخزين المؤقت والسجلات والمراقبة."
+      ]
+    }
+  },
+  {
+    "id": "freelance-store",
+    "company": {
+      "fr": "Indépendant · Khoulafa Store",
+      "en": "Freelance · Khoulafa Store",
+      "ar": "عمل حر · متجر الخلفاء (Khoulafa Store)"
+    },
+    "role": {
+      "fr": "Développeur Full Stack",
+      "en": "Full Stack Developer",
+      "ar": "مطوّر Full Stack"
+    },
+    "startDate": "2025-01",
+    "endDate": "2025-04",
+    "location": {
+      "fr": "Alger, Algérie",
+      "en": "Algiers, Algeria",
+      "ar": "الجزائر العاصمة، الجزائر"
+    },
+    "points": {
+      "fr": [
+        "Conception et réalisation d’une application de gestion commerciale .NET / DevExpress : caisse, stocks, achats et ventes.",
+        "Structuration avec Clean Architecture, Repository Pattern, Unit of Work et EF Core.",
+        "Persistance SQL Server, procédures stockées et reporting pour le suivi des opérations."
+      ],
+      "en": [
+        "Designed and built a .NET / DevExpress retail management application covering POS, inventory, purchases and sales.",
+        "Organized the application using Clean Architecture, Repository Pattern, Unit of Work and EF Core.",
+        "Implemented SQL Server persistence, stored procedures and operational reporting."
+      ],
+      "ar": [
+        "تصميم وإنجاز تطبيق .NET وDevExpress لإدارة الصندوق والمخزون والمشتريات والمبيعات.",
+        "تنظيم التطبيق باستخدام Clean Architecture وRepository Pattern وUnit of Work وEF Core.",
+        "حفظ البيانات بـ SQL Server وإجراءات مخزنة وتقارير لمتابعة العمليات."
+      ]
+    }
+  },
+  {
+    "id": "freelance-commerce",
+    "company": {
+      "fr": "Indépendant · E-commerce",
+      "en": "Freelance · E-commerce",
+      "ar": "عمل حر · تجارة إلكترونية"
+    },
+    "role": {
+      "fr": "Développeur Full Stack",
+      "en": "Full Stack Developer",
+      "ar": "مطوّر Full Stack"
+    },
+    "startDate": "2024-07",
+    "endDate": "2024-09",
+    "location": {
+      "fr": "Alger, Algérie",
+      "en": "Algiers, Algeria",
+      "ar": "الجزائر العاصمة، الجزائر"
+    },
+    "points": {
+      "fr": [
+        "Développement d’une API ASP.NET et d’une interface Angular responsive.",
+        "Intégration EF Core, Redis, JWT et Stripe."
+      ],
+      "en": [
+        "Developed an ASP.NET API and a responsive Angular interface.",
+        "Integrated EF Core, Redis, JWT and Stripe."
+      ],
+      "ar": [
+        "تطوير API بتقنية ASP.NET وواجهة Angular متجاوبة.",
+        "تكامل EF Core وRedis وJWT وStripe."
+      ]
+    }
+  },
+  {
+    "id": "saeti",
+    "company": "SAETI",
+    "role": {
+      "fr": "Stagiaire développeur .NET",
+      "en": "Software Developer Intern — .NET",
+      "ar": "متدرب في تطوير البرمجيات — .NET"
+    },
+    "startDate": "2023-02",
+    "endDate": "2023-02",
+    "location": {
+      "fr": "Alger, Algérie",
+      "en": "Algiers, Algeria",
+      "ar": "الجزائر العاصمة، الجزائر"
+    },
+    "points": {
+      "fr": [
+        "Outils internes de suivi des demandes entre services et interfaces de saisie.",
+        "Initiation à Active Directory : comptes, permissions et stratégies de groupe."
+      ],
+      "en": [
+        "Internal tools for interdepartmental requests and data-entry interfaces.",
+        "Active Directory training: accounts, permissions and group policies."
+      ],
+      "ar": [
+        "أدوات داخلية لمتابعة الطلبات بين الأقسام وواجهات إدخال البيانات.",
+        "تدريب على Active Directory: الحسابات والصلاحيات وسياسات المجموعة."
+      ]
+    }
+  },
+  {
+    "id": "freelance-movemasters",
+    "company": "Move Masters Calgary",
+    "role": {
+      "fr": "Designer web freelance",
+      "en": "Freelance Web Designer",
+      "ar": "مصمم ويب مستقل"
+    },
+    "startDate": null,
+    "endDate": null,
+    "period": {
+      "fr": "Mission freelance",
+      "en": "Freelance engagement",
+      "ar": "مهمة عمل حر"
+    },
+    "location": {
+      "fr": "Client à Calgary, Canada",
+      "en": "Client in Calgary, Canada",
+      "ar": "عميل في كالغاري، كندا"
+    },
+    "points": {
+      "fr": [
+        "Conception et réalisation WordPress du site de Move Masters Calgary.",
+        "Mise en valeur des services et du parcours de demande de devis."
+      ],
+      "en": [
+        "Designed and built the Move Masters Calgary website using WordPress.",
+        "Presented services and the quote-request journey."
+      ],
+      "ar": [
+        "تصميم وإنجاز موقع Move Masters Calgary باستخدام WordPress.",
+        "عرض الخدمات ومسار طلب عرض السعر."
+      ]
+    }
+  }
+]

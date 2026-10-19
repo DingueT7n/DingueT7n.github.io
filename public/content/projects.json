@@ -1,0 +1,879 @@
+[
+  {
+    "id": "schoolsaas",
+    "featured": true,
+    "category": "web",
+    "name": "School SaaS",
+    "type": {
+      "fr": "Projet personnel · Web & Mobile",
+      "en": "Personal project · Web & Mobile",
+      "ar": "مشروع شخصي · ويب وجوّال"
+    },
+    "headline": {
+      "fr": "Un socle commun. Plusieurs établissements.",
+      "en": "One foundation. Multiple schools.",
+      "ar": "أساس موحّد. مؤسسات متعددة."
+    },
+    "summary": {
+      "fr": "Une plateforme SaaS multi-tenant pour gérer les étudiants, les groupes, les séances et les présences, sur le Web et sur mobile.",
+      "en": "A multi-tenant SaaS platform for students, groups, sessions and attendance, across web and mobile.",
+      "ar": "منصة SaaS متعددة المؤسسات لإدارة الطلاب والمجموعات والحصص والحضور عبر الويب والجوّال."
+    },
+    "challenge": {
+      "fr": "Partager une plateforme tout en préservant le contexte et les données de chaque établissement.",
+      "en": "Share a platform while preserving each school’s context and data.",
+      "ar": "مشاركة منصة واحدة مع الحفاظ على سياق وبيانات كل مؤسسة."
+    },
+    "contributions": {
+      "fr": [
+        "Contexte tenant de l’API à l’accès aux données ; rôles, permissions et audit.",
+        "Cache Redis avec clés tenant-aware et pagination par curseur.",
+        "Règles métier partagées entre API, Web et Mobile."
+      ],
+      "en": [
+        "Tenant context from the API to data access; roles, permissions and audit.",
+        "Tenant-aware Redis keys and cursor pagination.",
+        "Consistent business rules across API, web and mobile."
+      ],
+      "ar": [
+        "سياق المؤسسة من API إلى البيانات، مع الأدوار والصلاحيات والتدقيق.",
+        "مفاتيح Redis خاصة بكل مؤسسة وترقيم صفحات بالمؤشر.",
+        "توحيد قواعد العمل بين API والويب والجوّال."
+      ]
+    },
+    "stack": ["C#", ".NET", "React", "React Native", "Redis", "DDD"],
+    "links": {
+      "demo": "https://lalmi.space/"
+    },
+    "image": "images/projects/school-mark.svg",
+    "details": [
+      {
+        "title": {
+          "fr": "Architecture & conception",
+          "en": "Architecture & design",
+          "ar": "البنية والتصميم"
+        },
+        "body": {
+          "fr": "Clean Architecture et DDD structurent le domaine métier. Le contexte tenant traverse les frontières API et données ; les rôles, permissions et traces d’audit complètent cette séparation.",
+          "en": "Clean Architecture and DDD organize the business domain. Tenant context spans API and data boundaries, complemented by roles, permissions and audit trails.",
+          "ar": "تنظّم Clean Architecture وDDD مجال العمل. يمتد سياق المؤسسة من API إلى البيانات، مع الأدوار والصلاحيات وسجلات التدقيق."
+        }
+      },
+      {
+        "title": {
+          "fr": "Performance pragmatique",
+          "en": "Pragmatic performance",
+          "ar": "أداء عملي"
+        },
+        "body": {
+          "fr": "Les clés Redis incluent le contexte tenant. La pagination par curseur borne les volumes chargés. Les règles métier restent cohérentes entre Web, mobile et API.",
+          "en": "Redis keys include tenant context. Cursor pagination bounds loaded data. Business rules stay consistent across web, mobile and API.",
+          "ar": "تتضمن مفاتيح Redis سياق المؤسسة، ويحدّ التصفح بالمؤشر من حجم البيانات. تبقى قواعد العمل متسقة عبر الويب والجوّال وAPI."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": "SchoolSaaS"
+    },
+    "gallery": [],
+    "displayName": "SchoolSaaS"
+  },
+  {
+    "id": "commerce",
+    "category": "web",
+    "name": {
+      "fr": "E-commerce Store",
+      "en": "E-commerce Store",
+      "ar": "التجارة الإلكترونية"
+    },
+    "type": {
+      "fr": "Freelance · 2024",
+      "en": "Freelance · 2024",
+      "ar": "عمل حر · 2024"
+    },
+    "headline": {
+      "fr": "Du catalogue au paiement.",
+      "en": "From catalog to checkout.",
+      "ar": "من الكتالوج إلى الدفع."
+    },
+    "summary": {
+      "fr": "Application e-commerce avec une interface Angular responsive et une API ASP.NET, intégrant authentification et paiement Stripe.",
+      "en": "E-commerce application with a responsive Angular interface and ASP.NET API, including authentication and Stripe payments.",
+      "ar": "تطبيق تجارة إلكترونية بواجهة Angular متجاوبة وAPI بتقنية ASP.NET، مع المصادقة والدفع عبر Stripe."
+    },
+    "challenge": {
+      "fr": "Relier le parcours d’achat, les accès utilisateurs et les transactions.",
+      "en": "Connect the shopping journey, user access and transactions.",
+      "ar": "ربط رحلة التسوق بصلاحيات المستخدمين والمعاملات."
+    },
+    "contributions": {
+      "fr": [
+        "API ASP.NET structurée selon Clean Architecture.",
+        "Persistance EF Core et cache Redis.",
+        "Authentification JWT, interface Angular et intégration Stripe."
+      ],
+      "en": [
+        "ASP.NET API organized with Clean Architecture.",
+        "EF Core persistence and Redis caching.",
+        "JWT authentication, Angular frontend and Stripe integration."
+      ],
+      "ar": [
+        "تنظيم API وفق Clean Architecture.",
+        "حفظ البيانات عبر EF Core والتخزين المؤقت عبر Redis.",
+        "مصادقة JWT وواجهة Angular وتكامل Stripe."
+      ]
+    },
+    "stack": ["ASP.NET Core", "Angular", "EF Core", "Redis", "Stripe"],
+    "links": {},
+    "image": null,
+    "details": [
+      {
+        "title": {
+          "fr": "Architecture & conception",
+          "en": "Architecture & design",
+          "ar": "البنية والتصميم"
+        },
+        "body": {
+          "fr": "L’API ASP.NET suit Clean Architecture : règles métier et accès aux données sont séparés, tandis qu’Angular porte l’interface utilisateur. EF Core gère la persistance, Redis le cache, JWT les accès et Stripe le paiement.",
+          "en": "The ASP.NET API follows Clean Architecture: business rules and data access are separated, with Angular handling the UI. EF Core supports persistence, Redis caching, JWT access and Stripe payment integration.",
+          "ar": "تتبع API بنية Clean Architecture لفصل قواعد العمل عن البيانات، وتوفّر Angular الواجهة. تُستخدم EF Core للحفظ وRedis للتخزين المؤقت وJWT للصلاحيات وStripe للدفع."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "E-commerce",
+        "en": "E-commerce",
+        "ar": "التجارة الإلكترونية"
+      }
+    },
+    "gallery": [],
+    "displayName": "Commerce",
+    "repositories": [
+      {
+        "label": {
+          "fr": "API ASP.NET · Ecom",
+          "en": "ASP.NET API · Ecom",
+          "ar": "API ASP.NET · Ecom"
+        },
+        "url": "https://github.com/DingueT7n/Ecom"
+      },
+      {
+        "label": {
+          "fr": "Frontend Angular",
+          "en": "Angular frontend",
+          "ar": "واجهة Angular"
+        },
+        "url": "https://github.com/DingueT7n/EcomWithAngular"
+      }
+    ]
+  },
+  {
+    "id": "store",
+    "category": "desktop",
+    "name": {
+      "fr": "Gestion commerciale",
+      "en": "Store management",
+      "ar": "إدارة المتجر"
+    },
+    "type": {
+      "fr": "Freelance · 2025",
+      "en": "Freelance · 2025",
+      "ar": "عمل حر · 2025"
+    },
+    "headline": {
+      "fr": "Les opérations du magasin, réunies.",
+      "en": "Store operations, connected.",
+      "ar": "عمليات المتجر في تطبيق واحد."
+    },
+    "summary": {
+      "fr": "Application .NET / DevExpress couvrant le point de vente, les stocks, les achats, les ventes et les tableaux de bord.",
+      "en": "A .NET / DevExpress application covering point of sale, inventory, purchases, sales and dashboards.",
+      "ar": "تطبيق .NET وDevExpress لنقاط البيع والمخزون والمشتريات والمبيعات ولوحات المتابعة."
+    },
+    "challenge": {
+      "fr": "Centraliser les opérations quotidiennes et fiabiliser les données transactionnelles.",
+      "en": "Centralize daily operations and maintain reliable transactional data.",
+      "ar": "توحيد العمليات اليومية وضمان موثوقية بيانات المعاملات."
+    },
+    "contributions": {
+      "fr": [
+        "Architecture en couches, Repository Pattern et Unit of Work.",
+        "Accès aux données EF Core et procédures stockées SQL Server.",
+        "Interfaces DevExpress et reporting métier."
+      ],
+      "en": [
+        "Layered architecture, Repository Pattern and Unit of Work.",
+        "EF Core data access and SQL Server stored procedures.",
+        "DevExpress interfaces and business reporting."
+      ],
+      "ar": [
+        "بنية متعددة الطبقات مع Repository Pattern وUnit of Work.",
+        "الوصول إلى البيانات بـ EF Core وإجراءات SQL Server المخزنة.",
+        "واجهات DevExpress وتقارير الأعمال."
+      ]
+    },
+    "stack": ["C#", ".NET", "DevExpress", "SQL Server", "EF Core"],
+    "links": {},
+    "images": [
+      "/images/projects/StoreApp/HomeScreen.jpg",
+      "/images/projects/StoreApp/Addproduct.jpg",
+      "/images/projects/StoreApp/ListProducts.jpg",
+      "/images/projects/StoreApp/VentWindow.jpg",
+      "/images/projects/StoreApp/StatisticsWindow.jpg",
+      "/images/projects/StoreApp/StatisticsWindow2.jpg",
+      "/images/projects/StoreApp/ReportsAllBuy.jpg"
+    ],
+    "details": [
+      {
+        "title": {
+          "fr": "Architecture & conception",
+          "en": "Architecture & design",
+          "ar": "البنية والتصميم"
+        },
+        "body": {
+          "fr": "Clean Architecture, Repository Pattern et Unit of Work structurent le code. EF Core et des procédures stockées SQL Server répondent aux besoins transactionnels et de reporting ; DevExpress porte les écrans métier.",
+          "en": "Clean Architecture, Repository Pattern and Unit of Work organize the code. EF Core and SQL Server stored procedures support transactional and reporting needs; DevExpress provides business interfaces.",
+          "ar": "تنظّم Clean Architecture وRepository Pattern وUnit of Work الشيفرة. تدعم EF Core وإجراءات SQL Server المعاملات والتقارير، وتوفّر DevExpress واجهات العمل."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "Gestion commerciale",
+        "en": "Store management",
+        "ar": "إدارة المتجر"
+      }
+    },
+    "gallery": [],
+    "displayName": "Gestion",
+    "previewDimensions": {
+      "width": 1280,
+      "height": 695
+    }
+  },
+  {
+    "id": "lte-thesis",
+    "name": {
+      "fr": "Optimisation des réseaux LTE",
+      "en": "LTE network optimization",
+      "ar": "تحسين شبكات LTE"
+    },
+    "category": "research",
+    "type": {
+      "fr": "Mémoire de master · SIEC",
+      "en": "Master’s thesis · SIEC",
+      "ar": "مذكرة ماستر · SIEC"
+    },
+    "headline": {
+      "fr": "Optimiser les paramètres. Repenser la couverture.",
+      "en": "Tune parameters. Rethink coverage.",
+      "ar": "ضبط المعلمات وتحسين التغطية."
+    },
+    "summary": {
+      "fr": "Un cadre expérimental Python combinant optimisation bayésienne et algorithme génétique pour améliorer la couverture radio LTE.",
+      "en": "An experimental Python framework combining Bayesian optimization and a genetic algorithm to improve LTE radio coverage.",
+      "ar": "إطار تجريبي بـ Python يجمع التحسين البايزي والخوارزمية الجينية لتحسين التغطية الراديوية لشبكات LTE."
+    },
+    "challenge": {
+      "fr": "Réduire les zones de faible couverture en ajustant la puissance et l’inclinaison des antennes, puis en recherchant des sites supplémentaires si nécessaire.",
+      "en": "Reduce weak-coverage areas through power and antenna downtilt tuning, then search for additional sites when needed.",
+      "ar": "تقليل مناطق ضعف التغطية بضبط القدرة وميل الهوائي ثم البحث عن مواقع إضافية عند الحاجة."
+    },
+    "contributions": {
+      "fr": [
+        "Modélisation de la propagation avec COST-231 Hata et un indicateur RSRP simplifié.",
+        "Optimisation bayésienne de la puissance d’émission et du downtilt.",
+        "Recherche de positions de nouvelles stations par algorithme génétique."
+      ],
+      "en": [
+        "Modeled propagation using COST-231 Hata and a simplified RSRP indicator.",
+        "Applied Bayesian optimization to transmit power and antenna downtilt.",
+        "Searched for new base station locations using a genetic algorithm."
+      ],
+      "ar": [
+        "نمذجة الانتشار عبر COST-231 Hata ومؤشر RSRP مبسّط.",
+        "تحسين قدرة الإرسال وميل الهوائي بالتحسين البايزي.",
+        "البحث عن مواقع محطات جديدة بالخوارزمية الجينية."
+      ]
+    },
+    "stack": [
+      "Python",
+      "Bayesian Optimization",
+      "Genetic Algorithm",
+      "COST-231 Hata",
+      "LTE"
+    ],
+    "details": [
+      {
+        "title": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "المنهجية"
+        },
+        "body": {
+          "fr": "Un modèle de propagation alimente l’objectif d’optimisation. Un surrogate par processus gaussien guide la recherche bayésienne ; la recherche génétique explore l’implantation de nouvelles stations lorsque le réglage des paramètres ne suffit plus.",
+          "en": "A propagation model feeds the optimization objective. A Gaussian-process surrogate guides Bayesian search; genetic search explores new station locations when parameter tuning is insufficient.",
+          "ar": "يغذّي نموذج الانتشار هدف التحسين. يوجّه نموذج بديل قائم على العمليات الغاوسية البحث البايزي، ويستكشف البحث الجيني مواقع جديدة عندما لا يكفي ضبط المعلمات."
+        }
+      },
+      {
+        "title": {
+          "fr": "Périmètre expérimental",
+          "en": "Experimental scope",
+          "ar": "نطاق التجربة"
+        },
+        "body": {
+          "fr": "Étude de planification à grande échelle : 1 800 MHz, stations de 30 m, terminaux de 1,5 m et grille uniforme. Bruit et fading rapide négligés. L’IoT est un concept de collecte de mesures, pas une intégration opérateur démontrée. Aucun gain chiffré n’est revendiqué ici.",
+          "en": "Large-scale planning study: 1,800 MHz, 30 m base stations, 1.5 m terminals and a uniform grid. Noise and fast fading are omitted. IoT is a measurement-collection concept, not a demonstrated operator integration. No quantified improvement is claimed here.",
+          "ar": "دراسة تخطيط واسعة النطاق بتردد 1800 MHz ومحطات بارتفاع 30 م وأجهزة بارتفاع 1.5 م وشبكة منتظمة. يُهمل الضجيج والتلاشي السريع. إنترنت الأشياء تصور لجمع القياسات وليس تكاملاً مثبتًا مع مشغّل، ولا تُعرض مكاسب رقمية غير موثقة."
+        }
+      }
+    ],
+    "links": {
+      "source": "https://github.com/DingueT7n/final-thesis-lte-optimization"
+    },
+    "image": null,
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "Optimisation des réseaux LTE",
+        "en": "LTE network optimization",
+        "ar": "تحسين شبكات LTE"
+      }
+    },
+    "gallery": [],
+    "displayName": "LTE / AI"
+  },
+  {
+    "id": "movemasters",
+    "name": "Move Masters Calgary",
+    "category": "web",
+    "type": {
+      "fr": "Freelance · Client au Canada",
+      "en": "Freelance · Canadian client",
+      "ar": "عمل حر · عميل في كندا"
+    },
+    "headline": {
+      "fr": "Une présence en ligne pour une entreprise de déménagement.",
+      "en": "An online presence for a moving company.",
+      "ar": "حضور رقمي لشركة نقل أثاث."
+    },
+    "summary": {
+      "fr": "Conception et réalisation sous WordPress du site de Move Masters Calgary, entreprise de déménagement au Canada.",
+      "en": "WordPress website design and implementation for Move Masters Calgary, a moving company in Canada.",
+      "ar": "تصميم وإنجاز موقع WordPress لشركة نقل الأثاث Move Masters Calgary في كندا."
+    },
+    "challenge": {
+      "fr": "Présenter les prestations de l’entreprise et faciliter la prise de contact pour un déménagement.",
+      "en": "Present the company’s services and make moving inquiries easier.",
+      "ar": "عرض خدمات الشركة وتسهيل التواصل بشأن الانتقال."
+    },
+    "contributions": {
+      "fr": [
+        "Conception du site dans le cadre d’une mission freelance.",
+        "Présentation des services et parcours vers la demande de devis."
+      ],
+      "en": [
+        "Designed the website as a freelance engagement.",
+        "Presented services and a path to requesting a quote."
+      ],
+      "ar": [
+        "تصميم الموقع ضمن مهمة عمل حر.",
+        "عرض الخدمات ومسار طلب عرض السعر."
+      ]
+    },
+    "stack": ["WordPress", "Web design", "UX / UI"],
+    "details": [
+      {
+        "title": {
+          "fr": "Conception orientée service",
+          "en": "Service-focused design",
+          "ar": "تصميم يركز على الخدمة"
+        },
+        "body": {
+          "fr": "Site réalisé avec WordPress pour présenter les services et orienter les visiteurs vers la demande de devis. La conception privilégie une navigation claire, une hiérarchie de contenu lisible et des appels à l’action visibles.",
+          "en": "Built with WordPress to present services and guide visitors toward a quote request. The design emphasizes clear navigation, readable content hierarchy and visible calls to action.",
+          "ar": "موقع أُنجز باستخدام WordPress لعرض الخدمات وتوجيه الزوار نحو طلب عرض سعر، مع تنقل واضح وتسلسل مقروء للمحتوى وأزرار تواصل بارزة."
+        }
+      }
+    ],
+    "links": {
+      "demo": "https://www.movemasterscalgary.com/"
+    },
+    "image": null,
+    "logo": {
+      "src": null,
+      "alt": "Move Masters Calgary"
+    },
+    "gallery": [],
+    "displayName": "Move Masters"
+  },
+  {
+    "id": "aqsat",
+    "name": "Aqsat SAAS",
+    "category": "web",
+    "type": {
+      "fr": "Application métier · Gestion commerciale",
+      "en": "Business application · Retail management",
+      "ar": "تطبيق أعمال · إدارة تجارية"
+    },
+    "headline": {
+      "fr": "Comprendre les ventes à tempérament.",
+      "en": "Understand installment sales.",
+      "ar": "فهم المبيعات بالتقسيط."
+    },
+    "summary": {
+      "fr": "Application destinée aux magasins pour gérer les paiements échelonnés et analyser leur activité commerciale.",
+      "en": "An application for stores to manage installment payments and analyze business activity.",
+      "ar": "تطبيق للمتاجر لإدارة الأقساط وتحليل النشاط التجاري."
+    },
+    "challenge": {
+      "fr": "Donner aux commerçants une lecture plus claire des échéances et de leur activité.",
+      "en": "Give retailers a clearer view of installments and business activity.",
+      "ar": "تقديم رؤية أوضح للتجار حول الأقساط ونشاطهم."
+    },
+    "contributions": {
+      "fr": [
+        "Gestion des paiements échelonnés pour les magasins.",
+        "Analyses et indicateurs pour mieux comprendre l’activité commerciale."
+      ],
+      "en": [
+        "Installment payment management for stores.",
+        "Analytics and indicators to better understand retail activity."
+      ],
+      "ar": [
+        "إدارة أقساط الدفع للمتاجر.",
+        "تحليلات ومؤشرات لفهم النشاط التجاري."
+      ]
+    },
+    "stack": ["Business analytics", "Installments"],
+    "details": [
+      {
+        "title": {
+          "fr": "Périmètre métier",
+          "en": "Business scope",
+          "ar": "النطاق الوظيفي"
+        },
+        "body": {
+          "fr": "Le projet associe gestion des échéances et lecture analytique de l’activité. Les technologies, règles de calcul et patterns internes seront documentés avec le dépôt source ; ils ne sont pas déduits du nom de domaine.",
+          "en": "The project combines installment management with business analytics. Technologies, calculation rules and internal patterns will be documented with the source repository; they are not inferred from the domain name.",
+          "ar": "يجمع المشروع إدارة الأقساط وتحليل النشاط. ستُوثّق التقنيات وقواعد الحساب والأنماط الداخلية مع المستودع، ولا تُستنتج من اسم النطاق."
+        }
+      }
+    ],
+    "links": {
+      "demo": "https://aqsat.dhiae.space/"
+    },
+    "image": null,
+    "logo": {
+      "src": null,
+      "alt": "Aqsat"
+    },
+    "gallery": [],
+    "displayName": "Aqsat"
+  },
+  {
+    "id": "siec-ml",
+    "name": {
+      "fr": "Laboratoire ML & Deep Learning",
+      "en": "ML & Deep Learning lab",
+      "ar": "مختبر التعلم الآلي والعميق"
+    },
+    "category": "research",
+    "type": {
+      "fr": "Travaux universitaires · Master SIEC",
+      "en": "University coursework · SIEC Master’s",
+      "ar": "أعمال جامعية · ماستر SIEC"
+    },
+    "headline": {
+      "fr": "Des modèles classiques aux réseaux neuronaux.",
+      "en": "From classical models to neural networks.",
+      "ar": "من النماذج التقليدية إلى الشبكات العصبية."
+    },
+    "summary": {
+      "fr": "Une série de TP Python réalisés pendant le master SIEC : apprentissage supervisé et non supervisé, recommandation et deep learning.",
+      "en": "A series of Python practical assignments during the SIEC master’s: supervised and unsupervised learning, recommendation and deep learning.",
+      "ar": "سلسلة أعمال تطبيقية بـ Python خلال ماستر SIEC: التعلم الخاضع وغير الخاضع للإشراف والتوصية والتعلم العميق."
+    },
+    "challenge": {
+      "fr": "Comprendre et expérimenter différentes familles de modèles sur des problèmes de régression, classification et clustering.",
+      "en": "Understand and experiment with model families for regression, classification and clustering.",
+      "ar": "فهم وتجريب عائلات النماذج في الانحدار والتصنيف والتجميع."
+    },
+    "contributions": {
+      "fr": [
+        "Régressions linéaire et logistique, KNN, arbres de décision, SVM et ensemble learning.",
+        "ACP, clustering et systèmes de recommandation.",
+        "FCNN, CNN, GAN et classification d’images CIFAR avec CNN."
+      ],
+      "en": [
+        "Linear and logistic regression, KNN, decision trees, SVM and ensemble learning.",
+        "PCA, clustering and recommendation systems.",
+        "FCNN, CNN, GAN and CNN image classification on CIFAR."
+      ],
+      "ar": [
+        "الانحدار الخطي واللوجستي وKNN وأشجار القرار وSVM والتعلم التجميعي.",
+        "تحليل المكونات الرئيسية ACP والتجميع وأنظمة التوصية.",
+        "شبكات FCNN وCNN وGAN وتصنيف صور CIFAR عبر CNN."
+      ]
+    },
+    "stack": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "PCA",
+      "CNN",
+      "GAN"
+    ],
+    "details": [
+      {
+        "title": {
+          "fr": "Démarche pédagogique",
+          "en": "Learning approach",
+          "ar": "النهج التعليمي"
+        },
+        "body": {
+          "fr": "Ces travaux sont des expérimentations académiques en Python. Trois dépôts regroupent les projets appliqués, les TP de machine learning et les travaux de deep learning / vision. Les performances et les jeux de données exacts sont à consulter dans chaque dépôt.",
+          "en": "These are academic Python experiments. Three repositories group applied projects, machine learning labs and deep learning / computer vision work. Refer to each repository for exact datasets and performance results.",
+          "ar": "هذه تجارب أكاديمية بـ Python. تجمع ثلاثة مستودعات المشاريع التطبيقية وأعمال التعلم الآلي وأعمال التعلم العميق والرؤية. تُراجع البيانات والنتائج الدقيقة في كل مستودع."
+        }
+      }
+    ],
+    "links": {},
+    "image": null,
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "Laboratoire ML & Deep Learning",
+        "en": "ML & Deep Learning lab",
+        "ar": "مختبر التعلم الآلي والعميق"
+      }
+    },
+    "gallery": [],
+    "displayName": "ML / DL",
+    "repositories": [
+      {
+        "label": {
+          "fr": "Projets ML appliqués",
+          "en": "Applied ML projects",
+          "ar": "مشاريع تعلم آلي تطبيقية"
+        },
+        "url": "https://github.com/DingueT7n/applied-ml-projects"
+      },
+      {
+        "label": {
+          "fr": "Deep Learning & vision",
+          "en": "Deep Learning & computer vision",
+          "ar": "التعلم العميق والرؤية الحاسوبية"
+        },
+        "url": "https://github.com/DingueT7n/deep-learning-computer-vision"
+      },
+      {
+        "label": {
+          "fr": "TP Machine Learning",
+          "en": "Machine Learning labs",
+          "ar": "أعمال تطبيقية في التعلم الآلي"
+        },
+        "url": "https://github.com/DingueT7n/machine-learning-labs"
+      }
+    ]
+  },
+  {
+    "id": "ingetis-genai",
+    "name": {
+      "fr": "EcoTrack & IA générative",
+      "en": "EcoTrack & Generative AI",
+      "ar": "EcoTrack والذكاء الاصطناعي التوليدي"
+    },
+    "category": "research",
+    "type": {
+      "fr": "TP & projet pédagogique · INGETIS M2",
+      "en": "Coursework & academic project · INGETIS M2",
+      "ar": "أعمال ومشروع تعليمي · INGETIS M2"
+    },
+    "headline": {
+      "fr": "Des fondations LLM aux agents et au RAG.",
+      "en": "From LLM foundations to agents and RAG.",
+      "ar": "من أسس LLM إلى الوكلاء وRAG."
+    },
+    "summary": {
+      "fr": "Travaux pratiques INGETIS autour des LLM, des embeddings, du RAG et de l’IA agentique, avec le projet pédagogique EcoTrack.",
+      "en": "INGETIS practical work on LLMs, embeddings, RAG and agentic AI, alongside the EcoTrack academic project.",
+      "ar": "أعمال تطبيقية في INGETIS حول النماذج اللغوية والتضمينات وRAG والوكلاء الذكيين، إلى جانب مشروع EcoTrack التعليمي."
+    },
+    "challenge": {
+      "fr": "Explorer la recherche documentaire augmentée, les appels d’outils et l’évaluation des réponses dans un cadre pédagogique.",
+      "en": "Explore retrieval-augmented document QA, tool calling and response evaluation in an academic setting.",
+      "ar": "استكشاف الإجابة المعززة باسترجاع الوثائق واستدعاء الأدوات وتقييم الإجابات في إطار تعليمي."
+    },
+    "contributions": {
+      "fr": [
+        "Prompting, sorties structurées et évaluation avec Gemini et Colab.",
+        "Embeddings, similarité, bases vectorielles, RAG documentaire et recherche sémantique multimodale.",
+        "Appel de fonctions, agents LangGraph, navigateur comme outil et RAG agentique.",
+        "Travaux sur la couche de confiance, la conformité AI Act et le projet EcoTrack."
+      ],
+      "en": [
+        "Prompting, structured outputs and evaluation with Gemini and Colab.",
+        "Embeddings, similarity, vector databases, document RAG and multimodal semantic search.",
+        "Function calling, LangGraph agents, browser tools and agentic RAG.",
+        "Coursework on trust layers, AI Act compliance and the EcoTrack project."
+      ],
+      "ar": [
+        "هندسة الأوامر والمخرجات المنظمة والتقييم عبر Gemini وColab.",
+        "التضمينات والتشابه والقواعد المتجهية وRAG للوثائق والبحث الدلالي متعدد الوسائط.",
+        "استدعاء الدوال ووكلاء LangGraph والمتصفح كأداة وRAG الوكيلي.",
+        "أعمال حول طبقة الثقة والامتثال لـ AI Act ومشروع EcoTrack."
+      ]
+    },
+    "stack": ["Python", "Gemini", "Colab", "Embeddings", "RAG", "LangGraph"],
+    "details": [
+      {
+        "title": {
+          "fr": "Périmètre documenté",
+          "en": "Documented scope",
+          "ar": "النطاق الموثق"
+        },
+        "body": {
+          "fr": "TP et projet pédagogique INGETIS : LLM, RAG et systèmes agentiques. Le dépôt associé est disponible ci-dessous. Les documents de cadrage et notebooks n’ont pas été analysés ici ; aucun résultat ni niveau d’achèvement particulier n’est revendiqué. AI Act reste un thème de TP, pas une certification.",
+          "en": "INGETIS coursework and academic project on LLMs, RAG and agentic systems. The associated repository is linked below. Specifications and notebooks have not been analyzed here; no specific results or completion level are claimed. AI Act remains a coursework topic, not a certification.",
+          "ar": "أعمال ومشروع تعليمي في INGETIS حول LLM وRAG والأنظمة الوكيلية، مع رابط المستودع أدناه. لم تُحلّل المواصفات والدفاتر هنا ولا تُدّعى نتائج أو درجة إنجاز محددة. AI Act موضوع دراسي وليس شهادة."
+        }
+      }
+    ],
+    "links": {
+      "source": "https://github.com/DingueT7n/generative-ai-llm-agentic-systems"
+    },
+    "image": null,
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "EcoTrack & IA générative",
+        "en": "EcoTrack & Generative AI",
+        "ar": "EcoTrack والذكاء الاصطناعي التوليدي"
+      }
+    },
+    "gallery": [],
+    "displayName": "EcoTrack / AI"
+  },
+  {
+    "id": "web-scraping-java",
+    "name": {
+      "fr": "Web scraping en Java",
+      "en": "Web scraping in Java",
+      "ar": "استخراج بيانات الويب بـ Java"
+    },
+    "displayName": "Java / Scraping",
+    "category": "research",
+    "type": {
+      "fr": "Projet universitaire",
+      "en": "University project",
+      "ar": "مشروع جامعي"
+    },
+    "headline": {
+      "fr": "Projet universitaire de collecte de données web avec Java.",
+      "en": "University project on web data collection with Java.",
+      "ar": "مشروع جامعي لجمع بيانات الويب باستخدام Java."
+    },
+    "summary": {
+      "fr": "Projet universitaire de collecte de données web avec Java.",
+      "en": "University project on web data collection with Java.",
+      "ar": "مشروع جامعي لجمع بيانات الويب باستخدام Java."
+    },
+    "challenge": {
+      "fr": "Explorer l’extraction de données depuis des pages web dans le cadre du cursus universitaire.",
+      "en": "Explore data extraction from web pages as part of university coursework.",
+      "ar": "استكشاف استخراج البيانات من صفحات الويب ضمن الدراسة الجامعية."
+    },
+    "contributions": {
+      "fr": [
+        "Travail universitaire consacré au web scraping en Java.",
+        "Code accessible dans le dépôt associé."
+      ],
+      "en": [
+        "University work focused on web scraping in Java.",
+        "Code available in the linked repository."
+      ],
+      "ar": [
+        "عمل جامعي حول استخراج بيانات الويب بـ Java.",
+        "الشيفرة متاحة في المستودع المرفق."
+      ]
+    },
+    "stack": ["Java", "Web scraping"],
+    "links": {
+      "source": "https://github.com/DingueT7n/web-scraping-java"
+    },
+    "details": [
+      {
+        "title": {
+          "fr": "Périmètre",
+          "en": "Scope",
+          "ar": "النطاق"
+        },
+        "body": {
+          "fr": "Explorer l’extraction de données depuis des pages web dans le cadre du cursus universitaire.",
+          "en": "Explore data extraction from web pages as part of university coursework.",
+          "ar": "استكشاف استخراج البيانات من صفحات الويب ضمن الدراسة الجامعية."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "Web scraping en Java",
+        "en": "Web scraping in Java",
+        "ar": "استخراج بيانات الويب بـ Java"
+      }
+    },
+    "gallery": [],
+    "image": null
+  },
+  {
+    "id": "nlp-generative-ai",
+    "name": {
+      "fr": "NLP & IA générative",
+      "en": "NLP & Generative AI",
+      "ar": "معالجة اللغة والذكاء الاصطناعي التوليدي"
+    },
+    "displayName": "NLP / GenAI",
+    "category": "research",
+    "type": {
+      "fr": "Projet universitaire",
+      "en": "University project",
+      "ar": "مشروع جامعي"
+    },
+    "headline": {
+      "fr": "Travaux universitaires autour du traitement automatique du langage et de l’IA générative.",
+      "en": "University work on natural language processing and generative AI.",
+      "ar": "أعمال جامعية حول معالجة اللغة الطبيعية والذكاء الاصطناعي التوليدي."
+    },
+    "summary": {
+      "fr": "Travaux universitaires autour du traitement automatique du langage et de l’IA générative.",
+      "en": "University work on natural language processing and generative AI.",
+      "ar": "أعمال جامعية حول معالجة اللغة الطبيعية والذكاء الاصطناعي التوليدي."
+    },
+    "challenge": {
+      "fr": "Explorer le traitement du langage et la génération dans un contexte académique. Les modèles et résultats précis sont documentés dans le dépôt.",
+      "en": "Explore language processing and generation in an academic context. Refer to the repository for specific models and results.",
+      "ar": "استكشاف معالجة اللغة والتوليد في إطار أكاديمي. تُراجع النماذج والنتائج المحددة في المستودع."
+    },
+    "contributions": {
+      "fr": [
+        "Travaux universitaires en NLP et IA générative.",
+        "Dépôt dédié pour consulter les sources."
+      ],
+      "en": [
+        "University work in NLP and generative AI.",
+        "Dedicated repository for the source material."
+      ],
+      "ar": [
+        "أعمال جامعية في معالجة اللغة والذكاء الاصطناعي التوليدي.",
+        "مستودع مخصص للاطلاع على المصادر."
+      ]
+    },
+    "stack": ["NLP", "Generative AI"],
+    "links": {
+      "source": "https://github.com/DingueT7n/nlp-generative-ai"
+    },
+    "details": [
+      {
+        "title": {
+          "fr": "Périmètre",
+          "en": "Scope",
+          "ar": "النطاق"
+        },
+        "body": {
+          "fr": "Explorer le traitement du langage et la génération dans un contexte académique. Les modèles et résultats précis sont documentés dans le dépôt.",
+          "en": "Explore language processing and generation in an academic context. Refer to the repository for specific models and results.",
+          "ar": "استكشاف معالجة اللغة والتوليد في إطار أكاديمي. تُراجع النماذج والنتائج المحددة في المستودع."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "NLP & IA générative",
+        "en": "NLP & Generative AI",
+        "ar": "معالجة اللغة والذكاء الاصطناعي التوليدي"
+      }
+    },
+    "gallery": [],
+    "image": null
+  },
+  {
+    "id": "employees",
+    "name": {
+      "fr": "Gestion des employés",
+      "en": "Employee management",
+      "ar": "إدارة الموظفين"
+    },
+    "displayName": "Employees",
+    "category": "software",
+    "type": {
+      "fr": "Projet logiciel · Juillet 2024",
+      "en": "Software project · July 2024",
+      "ar": "مشروع برمجي · يوليو 2024"
+    },
+    "headline": {
+      "fr": "Application de gestion des employés d’une entreprise, créée en juillet 2024.",
+      "en": "An employee management application for a company, created in July 2024.",
+      "ar": "تطبيق لإدارة موظفي شركة، أُنشئ في يوليو 2024."
+    },
+    "summary": {
+      "fr": "Application de gestion des employés d’une entreprise, créée en juillet 2024.",
+      "en": "An employee management application for a company, created in July 2024.",
+      "ar": "تطبيق لإدارة موظفي شركة، أُنشئ في يوليو 2024."
+    },
+    "challenge": {
+      "fr": "Organiser la gestion des employés dans un outil dédié à l’entreprise.",
+      "en": "Organize employee management through a dedicated company tool.",
+      "ar": "تنظيم إدارة الموظفين عبر أداة مخصصة للشركة."
+    },
+    "contributions": {
+      "fr": [
+        "Création d’un projet de gestion des employés en juillet 2024.",
+        "Code source disponible sur GitHub."
+      ],
+      "en": [
+        "Created an employee management project in July 2024.",
+        "Source code available on GitHub."
+      ],
+      "ar": [
+        "إنشاء مشروع لإدارة الموظفين في يوليو 2024.",
+        "الشيفرة المصدرية متاحة على GitHub."
+      ]
+    },
+    "stack": ["Employee management"],
+    "links": {
+      "source": "https://github.com/DingueT7n/EmployeesManagment"
+    },
+    "details": [
+      {
+        "title": {
+          "fr": "Périmètre",
+          "en": "Scope",
+          "ar": "النطاق"
+        },
+        "body": {
+          "fr": "Organiser la gestion des employés dans un outil dédié à l’entreprise.",
+          "en": "Organize employee management through a dedicated company tool.",
+          "ar": "تنظيم إدارة الموظفين عبر أداة مخصصة للشركة."
+        }
+      }
+    ],
+    "logo": {
+      "src": null,
+      "alt": {
+        "fr": "Gestion des employés",
+        "en": "Employee management",
+        "ar": "إدارة الموظفين"
+      }
+    },
+    "gallery": [],
+    "image": null
+  }
+]
