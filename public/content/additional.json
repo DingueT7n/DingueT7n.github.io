@@ -1,8 +1,8 @@
 {
   "languages": {
-    "fr": ["Français · B2", "Anglais · avancé", "Arabe · langue maternelle"],
-    "en": ["French · B2", "English · advanced", "Arabic · native"],
-    "ar": ["الفرنسية · B2", "الإنجليزية · متقدم", "العربية · اللغة الأم"]
+    "fr": ["Français · B2 (intermédiaire avancé)", "Anglais · C1 (avancé)", "Arabe · langue maternelle"],
+    "en": ["French · B2 (upper-intermediate)", "English · C1 (advanced)", "Arabic · native"],
+    "ar": ["الفرنسية · متوسط ​​متقدم", "الإنجليزية · متقدم", "العربية · اللغة الأم"]
   },
   "courses": [
     {

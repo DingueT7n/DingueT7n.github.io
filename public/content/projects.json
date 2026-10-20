@@ -45,7 +45,13 @@
     "links": {
       "demo": "https://lalmi.space/"
     },
-    "image": "images/projects/school-mark.svg",
+    "images": [
+      "/images/projects/SchoolSAAS/LandingPage.png",
+      "/images/projects/SchoolSAAS/LoginPage.png",
+      "/images/projects/SchoolSAAS/Dashboard.png",
+      "/images/projects/SchoolSAAS/01-LoginPagePhone.jpg",
+      "/images/projects/SchoolSAAS/02-HomePage.jpg"
+    ],
     "details": [
       {
         "title": {
@@ -468,7 +474,11 @@
     "links": {
       "demo": "https://aqsat.dhiae.space/"
     },
-    "image": null,
+     "images": [
+      "/images/projects/AqsatSAAS/LandingPage.png",
+      "/images/projects/AqsatSAAS/LoginPage.png",
+      "/images/projects/AqsatSAAS/Statistics.png"
+    ],
     "logo": {
       "src": null,
       "alt": "Aqsat"
